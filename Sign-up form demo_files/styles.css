@@ -2,11 +2,13 @@
 
 * {
     margin: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 .leftpanel {
@@ -28,14 +30,70 @@
 
 .credits {
     position: relative; 
-    top: 75vh;
+    top: 70vh;
     text-align: center;
     width: 100%;
     color: rgb(179, 176, 176);
-    font-family: "Open Sans", sans-serif;
 }
 
 p > a {
     color: rgb(179, 176, 176);
     font-weight: bold;
+}
+
+.rightpanel {
+    width: 60%;
+}
+
+.formtop {
+    font-size: 28px;
+}
+
+.p-one {
+    margin: 10vh 40px 0px;
+}
+
+.p-two {
+    margin: 40px;
+}
+
+fieldset {
+    border: none;
+    background:rgba(219, 217, 217, 0.779);
+    margin: 0;
+    padding: 0;
+}
+
+fieldset > p {
+    font-size: 28px;
+    margin: 20px 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 0 60px 40px;
+    gap: calc(10px + 2vw);
+}
+
+.input-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+}
+
+.formbottom {
+    margin: 40px 0 0 40px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.766);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
