@@ -50,7 +50,7 @@ p > a {
 }
 
 .p-one {
-    margin: 15vh 40px 0px;
+    margin: 10vh 40px 0px;
 }
 
 .p-two {
@@ -60,7 +60,6 @@ p > a {
 fieldset {
     border: none;
     background:rgba(219, 217, 217, 0.779);
-    height: 300px;
     margin: 0;
     padding: 0;
 }
@@ -68,4 +67,18 @@ fieldset {
 fieldset > p {
     font-size: 28px;
     margin: 20px 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 0 60px 40px;
+    gap: calc(10px + 2vw);
+}
+
+.input-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
 }
