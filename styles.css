@@ -82,3 +82,17 @@ fieldset > p {
     flex-direction: column;
     width: 24vw;
 }
+
+.formbottom {
+    margin: 40px 0 0 40px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.766);
+    color: white;
+    font-size: 20px;
+}
