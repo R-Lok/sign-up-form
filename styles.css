@@ -56,3 +56,16 @@ p > a {
 .p-two {
     margin: 40px;
 }
+
+fieldset {
+    border: none;
+    background:rgba(219, 217, 217, 0.779);
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset > p {
+    font-size: 28px;
+    margin: 20px 40px;
+}
