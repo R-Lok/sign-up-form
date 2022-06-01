@@ -98,6 +98,16 @@ button {
     margin-bottom: 20px;
 }
 
-input:not(:placeholder-shown):invalid {
-    border: red 1px solid;
+input {
+    border-radius: 5px;
 }
+
+input:focus {
+    outline: blue 1px solid;
+}
+
+input:not(:placeholder-shown):invalid {
+    outline: red 2px solid;
+}
+
+
