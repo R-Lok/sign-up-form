@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
     margin: 0px;
@@ -21,7 +22,7 @@
 .logo {
     height: 200px;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.4;
     background-color: white;
     position: relative;
     top: 60%;
@@ -110,4 +111,20 @@ input:not(:placeholder-shown):invalid {
     outline: red 2px solid;
 }
 
+.icon {
+    width: 150px;
+    height: 150px;
+}
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.service-name {
+    font-size: calc(8px + 3vw);
+    overflow:hidden;
+    font-family: "Lobster", sans-serif;
+}
